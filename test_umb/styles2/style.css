@@ -1,0 +1,393 @@
+﻿
+/*Fondo de la vista principal del sitio*/
+.mainPage {
+    background-image: url('../img/web_fondoPrincipal.png'); 
+    background-repeat: no-repeat; 
+    background-position: initial; 
+    background-attachment: fixed;
+}
+
+/*estilo para todos los encabezados del sitio*/
+.encabezados {
+    padding: 15px;
+    padding-bottom: 35px;
+    width: 95%;
+}
+
+/*Clase para estilo del primer título*/
+.mainTitle {
+	text-align:center;
+	width:100%;
+	background-color:black;
+	color:azure;
+	font-size:xx-large;
+	padding:20px;
+}
+
+/* Id para el título 3*/
+#h3_title{
+	text-align:center;
+	width:100%;
+	background-color:red;
+	color:azure;
+	font-size:xx-large;
+	padding:20px;
+}
+
+
+
+/*estilo para la clase tabla menu*/
+.columnMenuTable {
+	border:2px;
+	background-color:rgb(165, 158, 224);
+	width:100%
+	
+}
+
+/*estilo para el id del titulo principal del site*/
+#celdaTitle {
+	border:thick;
+	padding-right:30px
+}
+
+#mainHeader_p1 {
+    width: 30%;
+    padding-top: 10px;
+    background-image: url(../img/fondo_titulo.jpg);
+    background-position: center;
+}
+
+/*estilo para la clase listas del menú principal*/
+.listas{
+	text-align:center;
+}
+
+/*Clase para estilo de las celdas de la tabla del menu del sitio*/
+.columnas {
+	column-count:6;
+	column-gap:30px;
+	column-rule:4px ridge aqua;
+	list-style:none;
+}
+
+/*clase para los links de paginas del sitio en el menu*/
+.linkMenu {
+	text-decoration:none;
+	color: #263e03;
+}
+
+/*id del primer div que encaja el contenido de la pagina principal*/
+#leftBox_p1 {
+	column-count:1;
+}
+
+/*id del primer titulo despues del menu, invita a la curiosidad de tener cuadros*/
+#firstContent_p1 {
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*estilo del fondo del primer contenido de la pagina principal*/
+#bgFirstContent {
+    margin: 10px;
+    width:100%;   
+}
+
+/*clase parrafo del audio*/
+.parrafoBody {
+    font-size: 25px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+/*estilo de ubicaciÃ³n del audio*/
+#audioStyle {
+	text-align:center;
+    padding: 25px;
+	
+}
+
+/*estilo del video cargado en home*/
+#videoStyle {
+	width:100%;
+	text-align:center;
+	
+}
+
+/*estilo de la caja del costado derecho*/
+#rightBox_p1 {
+	column-count:1;
+}
+
+/*estilo parrafos*/
+#parrRightVideo_p1{
+    width: 80%;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*clase para el estilo del footer*/
+.footer {
+    bottom: 0px;
+    left: 0px;
+    text-align:center;
+}
+
+
+/*estilo del div del footer*/
+.footerDiv{
+	text-align:center;	
+}
+
+/*estilo del contenedor de la lista del footer*/
+.listF{
+    background-color: rgba(11, 34, 58, 0.842);
+    column-count:4;
+    column-rule: 5px  double aquamarine;
+    column-gap:15px;
+    text-align:center;
+}
+
+
+/*estilo de la lista que contiene los datos del footer*/
+.listaFooter {
+    font-size: 15px;
+    font-family: cursive;
+    color:aliceblue;
+    text-align:center;
+    list-style:none;
+    
+}
+
+/*estilo cuerpo de la pagina 5 - clientes*/
+#page5 {
+    background-image: url(../img/web_experiencesClients.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+}
+
+/*estilo del cuerpo de la pagina 2 - quienes somos*/
+#page2 {
+    background-image: url(../img/web_whoAreWe.png);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+
+/*estilo del titulo de la pagina 2 - quienes somos*/
+.titlePages {
+    text-align: center;
+    width: 30%;
+    font-size: 35px;
+    padding-right: 25px;
+}
+
+/*estilo de las lineas que dividen el header del body*/
+.lines {
+    width: 80%;
+}
+
+/*estilo del contenedor izquierdo*/
+#leftDiv_p2 {
+    width: 100%;
+    height: 50%;
+}
+
+/*estilo del parrafo del contenedor izquierdo*/
+.parrPage2_left {
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*estilo para el parrafo y la tabla de precios*/
+#divParrTabla{
+	column-count:2;
+	padding-bottom:15px;
+}
+
+/*estilo del parrafo del contenedor derecho*/
+.parrPage2_right {
+    width: 95%;
+    padding-left: 25px;
+    padding-top: 60px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*estilo del contenedor de la imagen de nuestra oficina*/
+#ourOffice {
+    padding-left: 150px;
+    padding-top: 25px;
+    padding-bottom: 45px;    
+}
+
+/*estilo del contenedor de las imÃ¡genes y texto en cajas*/
+#ourProducts {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 25px;
+}
+
+/*estilo del contenedor de la imagen ejemplo de productos*/
+#imageOurProducts {
+    padding: 25px;
+    text-align:center;
+}
+
+/*estilo del cuerpo de la pagina 3 - nuestros productos*/
+#page3{
+    background-image: url(../img/web_ourProducts.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+}
+
+/*estilo contenedor principal de parrafos, */
+#divPage3 {
+    width: 100%;
+    height: 100%;
+}
+
+/*estilo del contenido de la seccion izquierda*/
+#asideLeft {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 55%;
+    text-align: center;
+}
+
+/*estilo grupo de imagenes costado izquierdo*/
+.imageLeft {
+    padding: 15px;
+    text-align:center;
+
+}
+
+/*estilo para la tabla de precios*/
+#tablaPrecios {
+    padding: 10px;
+    border:3px;
+    text-align:center;
+    border-color:black;
+}
+
+/*estilo celda titulo de la tabla de precios*/
+#titleTable {
+    padding: 5px;
+    background-color: #c4fe6f;
+}
+
+/*estilo celdas subtitulos de la tabla de precios*/
+#subTitleTable {
+    background-color: #0B3B0B;
+    color: rgb(81, 238, 81);
+}
+
+/*celdas del subtitulo de la tabla*/
+.subTitleTable2 {
+    padding: 15px;
+}
+
+
+/*estilo del cuerpo de la pagina 4 - contÃ¡ctenos*/
+#page4 {
+    background-image: url(../img/web_contacts.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-attachment: fixed;
+}
+
+/*estilo del contendor div principal*/
+#divPage4 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*estilo titulo con direccion fisica de la tienda*/
+#titleDirection {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*estilo del tÃ­tulo del formulario */
+#titleForm {
+    padding: 15px;
+    text-align: center;
+}
+
+/*estilo del contenedor del formulario*/
+#divForm {
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+/*estilo para labels del formulario*/
+.label {
+    padding: 15px;
+    text-align: center;
+}
+
+/*estilo de los input*/
+.input {
+    margin: 10px;
+}
+
+/*estilo para mapa de ubicacion*/
+#mapa {
+    text-align: center;
+    padding-left: 75px;
+    padding-top: 25px;
+    width: 80%;
+}
+
+/*estilo de contenedor de la pÃ¡gina 5 - nuestros clientes*/
+#divPage5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+
+/*estilo contenedor izquierdo*/
+.divLeft_p5 {
+    width: 45%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*estilo contenedor derecho*/
+.divRight_p5 {
+    width: 45%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*estilo contenedor de imagenes izquierda*/
+.divImg_Left_p5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+/*estilo video */
+.videoS {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
