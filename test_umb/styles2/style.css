@@ -387,7 +387,7 @@
 /*estilo video */
 .videoS {
     padding: 10px;
-    width: 150%;
+    width: 100%;
     text-align: center;
     allowfullscreen;
 }
